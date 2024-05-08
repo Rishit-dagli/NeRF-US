@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nerfus"
+readme = "README.md"
+version = "0.1.0"
+description = "NeRF-US Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild"
+requires-python = ">=3.7.3"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "diffusers==0.12.1",
+    "dotmap",
+    "trimesh",
+    "pysdf",
+    "pytorch-lightning==1.8.6",
+    "scipy",
+    "GPUtil"
+]
+
+[tool.setuptools.packages.find]
+include = ["nerfus*"]
+
+[project.entry-points."nerfstudio.method_configs"]
+nerfus = "nerfus.nerf.nerfus_config:nerfus_config"
+
+[project.scripts]
+nerfus-setup = "nerfus.download_nerfus_dataset:nerfus_setup"
