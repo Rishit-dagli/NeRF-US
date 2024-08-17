@@ -1,6 +1,12 @@
 <div align="center">
 <h2>NeRF-US👥: Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild</h2>
 
+<a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1,2</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>2,3,4</sup>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>1,5</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>2,4,6</sup>
+
+Departments of <sup>1</sup> Computer Science; <sup>2</sup> Medical Imaging, University of Toronto, Canada<br>
+    <sup>3</sup> Division of Neurosurgery, St Michael's Hospital, Unity Health Toronto, Canada<br>
+    <sup>4</sup> Institute of Medical Science; Departments of <sup>5</sup> Laboratory Medicine and Pathobiology; <sup>6</sup> Statistical Sciences, University of Toronto, Canada
+
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2Fnerf-us">
   <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2Fnerf-us" alt="Twitter">
 </a>
