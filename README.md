@@ -10,10 +10,10 @@ Departments of <sup>1</sup> Computer Science; <sup>2</sup> Medical Imaging, Univ
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2Fnerf-us">
   <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2Fnerf-us" alt="Twitter">
 </a>
-<a href="https://arxiv.org/abs/"><img src='https://img.shields.io/badge/arXiv-NeRF--US-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2408.10258"><img src='https://img.shields.io/badge/arXiv-NeRF--US-red' alt='Paper PDF'></a>
 <a href='https://rishitdagli.com/nerf-us'><img src='https://img.shields.io/badge/Project_Page-NeRF--US-green' alt='Project Page'></a>
-<a href='https://huggingface.co/papers/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow'></a>
-<a href='https://huggingface.co/papers/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow'></a>
+<a href='https://huggingface.co/papers/2408.10258'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow'></a>
+<a href='https://huggingface.co/datasets/rishitdagli/us-in-the-wild'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow'></a>
 </div>
 
 This work presents **NeRF-US**, a method to train NeRFs in-the-wild for sound fields like ultrasound imaging data. Check out our [website](https://rishitdagli.com/nerf-us/) to view some results of this work.
@@ -217,4 +217,13 @@ This code base is built on top of, and thanks to them for maintaining the reposi
 If you find NeRF-US helpful, please consider citing:
 
 ```bibtex
+@misc{dagli2024nerfusremovingultrasoundimaging,
+      title={NeRF-US: Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild}, 
+      author={Rishit Dagli and Atsuhiro Hibi and Rahul G. Krishnan and Pascal N. Tyrrell},
+      year={2024},
+      eprint={2408.10258},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.10258}, 
+}
 ```

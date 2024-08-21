@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: >-
+  NeRF-US: Removing Ultrasound Imaging Artifacts from Neural
+  Radiance Fields in the Wild
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Rishit
+    family-names: Dagli
+    email: rishit@cs.toronto.edu
+  - given-names: Atsuhiro
+    family-names: Hibi
+    email: atsuhiro.hibi@mail.utoronto.ca
+  - given-names: Rahul G.
+    family-names: Krishnan
+    email: rahulgk@cs.toronto.edu
+  - given-names: Pascal
+    family-names: Tyrrell
+    email: pascal.tyrrell@utoronto.ca
+identifiers:
+  - type: url
+    value: 'https://github.com/Rishit-dagli/NeRF-US/'
+    description: Code
+  - type: url
+    value: 'https://github.com/Rishit-dagli/NeRF-US/tree/main'
+    description: Paper
+repository-code: 'https://github.com/Rishit-dagli/NeRF-US'
+url: 'https://rishitdagli.com/nerf-us/'
+license: Apache-2.0
